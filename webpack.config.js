@@ -35,8 +35,8 @@ module.exports = {
     devServer:{
         contentBase:path.join(__dirname, 'public'),
         port:8081,
-        host:'10.10.10.6',
+        host:'10.10.10.6', disableHostCheck: true,
         historyApiFallback: true,
-        hot: true
+
     }
 }
